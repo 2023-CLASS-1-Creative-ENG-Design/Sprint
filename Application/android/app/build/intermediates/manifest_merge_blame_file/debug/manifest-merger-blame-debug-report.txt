@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.canavar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:5:5-76
+13-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:7:5-67
+14-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:8:5-73
+15-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:8:22-71
+16
+17    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:9:5-85
+17-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:9:29-83
+18
+19    <uses-feature
+19-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:10:5-89
+20        android:name="android.hardware.bluetooth_le"
+20-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:10:19-63
+21        android:required="true" />
+21-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:10:64-87
+22
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[com.facebook.flipper:flipper:0.125.0] /Users/min/.gradle/caches/transforms-3/af001966ee9bead37adb0961b3e02cf7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+23-->[com.facebook.flipper:flipper:0.125.0] /Users/min/.gradle/caches/transforms-3/af001966ee9bead37adb0961b3e02cf7/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[:react-native-bluetooth-classic] /Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+24-->[:react-native-bluetooth-classic] /Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/node_modules/react-native-bluetooth-classic/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.android.gms:play-services-iid:17.0.0] /Users/min/.gradle/caches/transforms-3/11b810c53efa1d6c382c1001e3a4609c/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+25-->[com.google.android.gms:play-services-iid:17.0.0] /Users/min/.gradle/caches/transforms-3/11b810c53efa1d6c382c1001e3a4609c/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.android.installreferrer:installreferrer:1.1.2] /Users/min/.gradle/caches/transforms-3/efe445abb358508c15659f2586e848a0/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+26-->[com.android.installreferrer:installreferrer:1.1.2] /Users/min/.gradle/caches/transforms-3/efe445abb358508c15659f2586e848a0/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+27
+28    <application
+28-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:12:5-31:19
+29        android:name="com.canavar.MainApplication"
+29-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:13:7-38
+30        android:allowBackup="false"
+30-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:17:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] /Users/min/.gradle/caches/transforms-3/973a9c18470d91d60c44d5b6b3b857fc/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:15:7-41
+34        android:label="@string/app_name"
+34-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:14:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:16:7-52
+36        android:theme="@style/AppTheme"
+36-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:18:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:8:9-44
+38        <activity
+38-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:11:9-111
+39            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+39-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:11:19-83
+40            android:exported="false" />
+40-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/debug/AndroidManifest.xml:11:84-108
+41        <activity
+41-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:19:7-30:18
+42            android:name="com.canavar.MainActivity"
+42-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:20:9-37
+43            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+43-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:22:9-118
+44            android:exported="true"
+44-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:25:9-32
+45            android:label="@string/app_name"
+45-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:21:9-41
+46            android:launchMode="singleTask"
+46-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:23:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:24:9-51
+48            <intent-filter>
+48-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:26:9-29:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:27:13-65
+49-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:27:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:28:13-73
+51-->/Users/min/ReactNative-Arduino-Bluetooth-RC-Car/Canavar/android/app/src/main/AndroidManifest.xml:28:23-70
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->[com.google.android.gms:play-services-base:17.0.0] /Users/min/.gradle/caches/transforms-3/04c296ef37e8ebc1fd38f4ce443e4953/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+55            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+55-->[com.google.android.gms:play-services-base:17.0.0] /Users/min/.gradle/caches/transforms-3/04c296ef37e8ebc1fd38f4ce443e4953/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+56            android:exported="false"
+56-->[com.google.android.gms:play-services-base:17.0.0] /Users/min/.gradle/caches/transforms-3/04c296ef37e8ebc1fd38f4ce443e4953/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.android.gms:play-services-base:17.0.0] /Users/min/.gradle/caches/transforms-3/04c296ef37e8ebc1fd38f4ce443e4953/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+58
+59        <meta-data
+59-->[com.google.android.gms:play-services-basement:17.0.0] /Users/min/.gradle/caches/transforms-3/5b23f9afd6e27972cf8d6394e870b616/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+60            android:name="com.google.android.gms.version"
+60-->[com.google.android.gms:play-services-basement:17.0.0] /Users/min/.gradle/caches/transforms-3/5b23f9afd6e27972cf8d6394e870b616/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+61            android:value="@integer/google_play_services_version" />
+61-->[com.google.android.gms:play-services-basement:17.0.0] /Users/min/.gradle/caches/transforms-3/5b23f9afd6e27972cf8d6394e870b616/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+65            android:authorities="com.canavar.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/min/.gradle/caches/transforms-3/f403b41a114da9c9fec6a5013ee16ee2/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/min/.gradle/caches/transforms-3/720e8041ccde9cbe3698cf4ef79adc65/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/min/.gradle/caches/transforms-3/720e8041ccde9cbe3698cf4ef79adc65/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/min/.gradle/caches/transforms-3/720e8041ccde9cbe3698cf4ef79adc65/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+73        </provider>
+74    </application>
+75
+76</manifest>
